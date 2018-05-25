@@ -7,7 +7,7 @@
 * [Code dependencies](##code-dependencies) 
 
 ## How to use
- This is a feed reader testing project where we test the Udacity feed reader application using the testing framework "Jasmine". We test e. g. that the feed reader menu is working fine or that URLs are defined. For more information see comments in feadreader.js file 
+ This is a feed reader testing project where we test the Udacity feed reader application using the testing framework "Jasmine". We test e. g. that the feed reader menu is working fine or that URLs are defined. For more information see comments in [feedreader.js](jasmine/spec/feedreader.js) file 
 
 ## Where to test 
 
