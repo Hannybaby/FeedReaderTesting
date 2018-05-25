@@ -18,4 +18,4 @@ The following dependencies are used:
 
 * Jasmine Testing Framework 
 
-* Google Feed Reader API * Handlebars Templates *jQuery
+* Google Feed Reader API * Handlebars Templates * jQuery
