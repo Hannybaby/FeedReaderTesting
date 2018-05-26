@@ -17,7 +17,7 @@
 
 ## Where to test 
 
-Follow this link to have a look at the feed and its test and see it online: [Click here!](http://htmlpreview.github.io/?https://github.com/Hannybaby/FeedReaderTesting/blob/master/index.html). 
+Follow this link to have a look at the feed and its test and see it online: [Click here!](http://htmlpreview.github.io/?https://github.com/Hannybaby/FeedReaderTesting/blob/master/index.html) 
 
 To run tests and see its results the Jasmine testing framework is needed!   
 
