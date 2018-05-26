@@ -103,12 +103,11 @@ $(function() {
         beforeEach(function(done) {
             loadFeed(0, function() {
                 feedOne = document.querySelector('.feed').innerHTML;
-                done();
-            });
 
             loadFeed(1, function() {
                 feedTwo = document.querySelector('.feed').innerHTML;
                 done();
+                });
             });
         });
 
