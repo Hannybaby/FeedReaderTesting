@@ -13,7 +13,7 @@
 
  Click on [index.html](index.html) to see the HTML code as well as run the app on your computer. 
 
- All css files can be found in the css folder. Same for js and font files.  
+ Each file type can be found in the apropriate folder (e. g. css files in css folder) 
 
 ## Where to test 
 
