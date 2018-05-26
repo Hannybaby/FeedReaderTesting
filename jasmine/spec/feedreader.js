@@ -27,7 +27,7 @@ $(function() {
         it('URL is defined and not null', function() {
             allFeeds.forEach(function(allFeeds) {
                 expect(allFeeds.url).toBeDefined();
-                expect(allFeeds.url).not.toBe(0);
+                expect(allFeeds.url.length).toBeGreaterThan(0);
             });
         });
 
@@ -40,7 +40,7 @@ $(function() {
         it('name is defined and not null', function() {
             allFeeds.forEach(function(allFeeds) {
                 expect(allFeeds.name).toBeDefined();
-                expect(allFeeds.name).not.toBe(0);
+                expect(allFeeds.name.length).toBeGreaterThan(0);
             });
         });
     });
@@ -84,7 +84,8 @@ $(function() {
 
         /* ...and has at least one .entry element in .feed container */
         it('ensures container has elements', function() {
-            expect($('.entriesLen')).not.toBe(0);
+            var elementList = document.querySelectorAll('.feed .entry');
+                expect(elementList.length).toBeGreaterThan(0);
         });
     });
 
@@ -102,6 +103,7 @@ $(function() {
         beforeEach(function(done) {
             loadFeed(0, function() {
                 feedOne = document.querySelector('.feed').innerHTML;
+                done();
             });
 
             loadFeed(1, function() {
